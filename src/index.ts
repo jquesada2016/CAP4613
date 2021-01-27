@@ -1,4 +1,5 @@
 import App from "./App.svelte";
+import "moment";
 
 var app = new App({
   target: document.body,
