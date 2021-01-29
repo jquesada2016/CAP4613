@@ -16,8 +16,3 @@
     <Content />
   </div>
 </div>
-
-<style lang="scss" global>
-  @import "./_theme/chartist/_chartist-settings.scss";
-  @import "chartist/dist/scss/chartist.scss";
-</style>
