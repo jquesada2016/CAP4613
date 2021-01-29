@@ -97,4 +97,9 @@
   </div>
 </Section>
 
-<Section title="d)" headingLevel="h3" />
+<Section title="d)" headingLevel="h3" open>
+  <div class="grid grid-cols-2 text-center">
+    <p>20% of training: {0.2 * 60_000}</p>
+    <p>20% of testing: {0.2 * 10_000}</p>
+  </div>
+</Section>
