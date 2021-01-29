@@ -9,10 +9,12 @@
     "@fortawesome/free-brands-svg-icons": "^5.15.2",
     "@fortawesome/free-regular-svg-icons": "^5.15.2",
     "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@tensorflow/tfjs": "^3.0.0",
     "carbon-components": "^10.27.0",
     "chart.js": "^2.9.4",
     "chartist": "^0.11.4",
     "d3": "^5.14.2",
+    "mnist": "^1.1.0",
     "moment": "^2.29.1",
     "svelte": "^3.24.0"
   },
