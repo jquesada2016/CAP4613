@@ -6,13 +6,13 @@
 
   export let headingLevel: string = "h1";
   export let title: string;
-  export let textSize: string;
+  export let textSize: string = "";
   export let open = false;
 
   $: headingHTML = `<${headingLevel} class="${textSize} cursor-pointer">${title}</${headingLevel}>`;
 </script>
 
-<section class="w-full">
+<section class="w-full mb-8">
   <div class="flex items-center cursor-pointer" on:click={() => (open = !open)}>
     {@html headingHTML}
 
