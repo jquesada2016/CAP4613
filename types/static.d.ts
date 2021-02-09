@@ -58,19 +58,4 @@ declare module "*.png" {
 
 /* CUSTOM: ADD YOUR OWN HERE */
 
-declare module "mnist" {
-  export = {
-    set: (training: number, testing: number) => {
-      test: {
-      }
-      training: {
-      }
-    },
-    draw: (
-      digit: number[],
-      context: CanvasRenderingContext2D,
-      offextX?: number,
-      offsetY?: number,
-    ) => any,
-  };
-}
+declare module "mnist";
