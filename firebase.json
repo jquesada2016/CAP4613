@@ -1,7 +1,7 @@
 {
   "hosting": {
     "site": "cap4613-jquesada2016", 
-    "public": "build",
+    "public": "build", 
     "ignore": [
       "firebase.json",
       "**/.*",
