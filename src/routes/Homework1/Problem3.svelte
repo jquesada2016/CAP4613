@@ -6,7 +6,8 @@
   import Section from "../../components/Section.svelte";
 
   // MNIST dataset
-  import mnist from "mnist";
+  // import mnist from "mnist";
+  let mnist: any;
 
   let canvasRef1: HTMLCanvasElement;
   let canvasRef2: HTMLCanvasElement;
@@ -97,7 +98,7 @@
   </div>
 </Section>
 
-<Section title="d)" headingLevel="h3" open>
+<Section title="d)" headingLevel="h3">
   <div class="grid grid-cols-2 text-center">
     <p>20% of training: {0.2 * 60_000}</p>
     <p>20% of testing: {0.2 * 10_000}</p>
